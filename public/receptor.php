@@ -6,9 +6,11 @@ $dados = $_REQUEST;
 
 $dados_log = print_r($dados, true);
 
-$log = date('d/m/Y H/i:s').": ".PHP_EOL;
-$log .= $dados_log.PHP_EOL;
+$log = "//----------------------------------------------------//".date('d/m/Y H:i:s').": ".PHP_EOL;
+$log .= $dados_log.PHP_EOL."//----------------------------------------------------//";
 
 file_put_contents(__DIR__ . '/logs.txt', $log, FILE_APPEND);
+
+echo "To aqui!";
 
 ?>

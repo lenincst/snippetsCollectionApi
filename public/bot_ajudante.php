@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../server/crest-master/src/crest.php';
 require_once __DIR__ . '/../server/config.php';
 
-$hora = date('d-m-Y H:i:s');
+$hora = date('d/m/Y H:i:s');
 $pipeline = $pipelines['pipeline_00']['id'];
 
 echo "Criando o negócio!".PHP_EOL;
@@ -33,5 +33,6 @@ if ($alterar_etapa['result']==true){
 }else{
     echo "Negócio não foi atualizado, verificar!".PHP_EOL;
 }
+return;
 
 ?>
