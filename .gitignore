@@ -1,2 +1,3 @@
 /server
+.env
 /public/logs.txt

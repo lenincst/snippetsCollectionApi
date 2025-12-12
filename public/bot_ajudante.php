@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../server/crest-master/src/crest.php';
+require_once __DIR__ . '/../lib/crest-master/src/crest.php';
 require_once __DIR__ . '/../server/config.php';
 
 $hora = date('d/m/Y H:i:s');
