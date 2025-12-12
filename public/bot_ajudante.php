@@ -34,5 +34,6 @@ if ($alterar_etapa['result']==true){
     echo "Negócio não foi atualizado, verificar!".PHP_EOL;
 }
 return;
+echo 'teste';
 
 ?>

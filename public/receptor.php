@@ -26,6 +26,7 @@ if ($tipo_de_chamado == 'ONCRMDEALUPDATE' or $tipo_de_chamado == 'ONCRMDEALADD')
     );
 
     $dados_negocio = print_r($dados_negocio, true);
+    echo 'teste';
 
 
 
@@ -33,6 +34,7 @@ if ($tipo_de_chamado == 'ONCRMDEALUPDATE' or $tipo_de_chamado == 'ONCRMDEALADD')
 
 }elseif($tipo_de_chamado == 'ONCRMDEALDELETE'){
 }
+
 
 echo "To aqui!";
 
